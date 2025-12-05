@@ -19,40 +19,64 @@ let shoes = 89.78;
 
 // 1. If divided evenly, how much would each sibling get for the week?
 
+console.log(`1. They each get $${weeklyAllowance/3}.`)
+
 // 2. How many games can Jordan buy with their cut?
 
+console.log(`2. he can buy ${weeklyAllowance/3 / game}.`)
+
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
+let gameSale = 16.99
+let shoeSale = 44.89
+console.log(`3. the cost of games are ${ gameSale }.`)
+console.log(`3. the cost of games are ${ shoes/2 }.`)
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
 
-// 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+console.log(`4. they can buy ${weeklyAllowance/3 * 2 * 4/ shoeSale}.`)
+
+// 5. How many more games can they buy if they put their money together part to if they had bought games on their own?
+
+console.log(' I AM SKIPPING THIS QUESTION')
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
 
+console.log(`6. The three siblings are ${ sibling1 } , ${ sibling2 }, and ${ sibling3 }`)
+
 // 7. Use a built-in method to count how many characters are in Ricardo's name.
 
+console.log(`7. Total characters: ${sibling3.length}`); 
+
 // 8. Use a built-in method to print out the string "RICARDO MONTOYA DE LA ROSA RAMIREZ"
+  
+console.log(`8. ${sibling3.toUpperCase()}`);
 
 // 9. Use a built-in method to print out the string "ricardo montoya de la rosa ramirez"
 
+console.log(`9. ${sibling3.toLowerCase()}`);
+
 // 10. Use a built-in method to print out Ricardo's name, but with all the instances of the letter a removed or deleted.
 
+console.log(`10. ${sibling3.replaceAll("a", "")}`);
+
 // 11. Use a built-in method to print out "De La Rosa"
+
+console.log(`11. ${sibling3.slice(16, )}`);;
 
 // Medium Challenges
 
 // 12. Rewrite these function as an arrow function.
 /// Then, call them with different inputs to check the result.
 
-function getRandomNum() {
+const getRandomNum = () =>{
     return Math.floor(Math.random() * 100);
 }
 
-function greeting(name) {
+const greeting = (name) => {
     return `Hello ${name}, I'm glad you can make it!`;
 }
 
-function perfectRoot(x) {
+const perfectRoot= (x) => {
     let root = Math.sqrt(x);
     if (Math.floor(root) === root) {
         return root;
@@ -60,39 +84,44 @@ function perfectRoot(x) {
         return "No perfect root"
     }
 }
-
+ 
+console.log( getRandomNum ());
+console.log( perfectRoot(67));
+console.log( greeting("killy"));
 // 13. Fix/Finish the following functions.
 /// Then, call them with at least 2 different inputs to ensure they work.
 
 /// a. Adds 2 numbers and returns the sum
 const addNums = (x, y) => {
     let sum = x + y;
+    return sum;
 }
 // uncomment the line below, to call the function, and add one more function call
-// console.log( addNums(4, 6) );
+ console.log( addNums(4, 6) );
 
+  console.log( addNums(6, 7) );
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
     if( ) { 
         return "Welcome Queen!";
     } else {
-        return `Sorry {name}, you're not Beyonce`;
+        return "Sorry {name}, you're not Beyonce";
     }
 }
-// Test "Beyonce" and other names to ensure it works
+Test "Beyonce" and other names to ensure it works
 
-
+  console.log( isBeyonce("Beyonce") );
 
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
-const reduceEvens = (x) => {
-    if( ){
+// const reduceEvens = (x) => {
+//     if( ){
 
-    } else {
-        return x;
-    }
-}
+//     } else {
+//         return x;
+//     }
+// }
 //Write your own function calls
 
 
