@@ -101,63 +101,63 @@ const addNums = (x, y) => {
 
   console.log( addNums(6, 7) );
 
-/// b. Prints a special message if name is "Beyonce"
-const isBeyonce = (name) => {
-    if( ) { 
-        return "Welcome Queen!";
-    } else {
-        return "Sorry {name}, you're not Beyonce";
-    }
-}
-Test "Beyonce" and other names to ensure it works
-
-  console.log( isBeyonce("Beyonce") );
-
-/// c. If the number is even, return the number divided by 2, otherwise, return the number
-/// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
-// const reduceEvens = (x) => {
-//     if( ){
-
+// /// b. Prints a special message if name is "Beyonce"
+// const isBeyonce = (name) => {
+//     if( ) { 
+//         return "Welcome Queen!";
 //     } else {
-//         return x;
+//         return "Sorry {name}, you're not Beyonce";
 //     }
 // }
-//Write your own function calls
+// Test "Beyonce" and other names to ensure it works
+
+//   console.log( isBeyonce("Beyonce") );
+
+// /// c. If the number is even, return the number divided by 2, otherwise, return the number
+// /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
+// // const reduceEvens = (x) => {
+// //     if( ){
+
+// //     } else {
+// //         return x;
+// //     }
+// // }
+// //Write your own function calls
 
 
-// 14. Write a function called shortenString(string) that returns the first 10 characters of a string if it is longer than 10
-//remove all
-const shortenString = (string) => {
+// // 14. Write a function called shortenString(string) that returns the first 10 characters of a string if it is longer than 10
+// //remove all
+// const shortenString = (string) => {
 
-}
-
-
-
-// Spicy Challenges
-let burger = 5.99;
-let fries = 3.99;
-let soda = 1.99;
-
-// 15. Write a function buyBurgers(budget) that takes in a budget amount and returns the number of burgers that can be bought.
-/// If no burgers can be bought, return "Sorry, no burgers for you."
-
-const buyBurgers = (budget) => {
-
-}
-
-// 16. A meal consists of 1 burger, 1 fry, and 1 soda.
-/// Write a function called buyMeals(budget) that tells the user how many meals they can buy and how much money they will have left over.
-/// Bonus: Round the answer to the nearest penny.
-const buyMeals = (budget) => {
-
-}
-
-
-// 17. [Challenge] Write a function missingLeg(side1, side2) that takes in the length of a hypotenuse and a leg of a right triangle and prints out the missing leg's length
-/// The larger side should be the hypotenuse  
+// }
 
 
 
-// 18. [Super Challenge] In math, Factorial is the product of an integer and all the integers below it.
-/// For example: factorial(3) = 3*2*1 = 6 ---  factorial(5) = 5*4*3*2*1 = 120
-/// Write a function factorial(x) that finds the factorial of any integer.
+// // Spicy Challenges
+// let burger = 5.99;
+// let fries = 3.99;
+// let soda = 1.99;
+
+// // 15. Write a function buyBurgers(budget) that takes in a budget amount and returns the number of burgers that can be bought.
+// /// If no burgers can be bought, return "Sorry, no burgers for you."
+
+// const buyBurgers = (budget) => {
+
+// }
+
+// // 16. A meal consists of 1 burger, 1 fry, and 1 soda.
+// /// Write a function called buyMeals(budget) that tells the user how many meals they can buy and how much money they will have left over.
+// /// Bonus: Round the answer to the nearest penny.
+// const buyMeals = (budget) => {
+
+// }
+
+
+// // 17. [Challenge] Write a function missingLeg(side1, side2) that takes in the length of a hypotenuse and a leg of a right triangle and prints out the missing leg's length
+// /// The larger side should be the hypotenuse  
+
+
+
+// // 18. [Super Challenge] In math, Factorial is the product of an integer and all the integers below it.
+// /// For example: factorial(3) = 3*2*1 = 6 ---  factorial(5) = 5*4*3*2*1 = 120
+// /// Write a function factorial(x) that finds the factorial of any integer.
